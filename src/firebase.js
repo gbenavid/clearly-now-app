@@ -1,6 +1,6 @@
 import firebase from 'firebase';
 
-var config = {
+var const = {
     apiKey: "AIzaSyCZ7Z8BRk86TwkAokjvektiGyXM2zZDdLw",
     authDomain: "clearly-now-app.firebaseapp.com",
     databaseURL: "https://clearly-now-app.firebaseio.com",
@@ -10,4 +10,6 @@ var config = {
   };
 
 firebase.initializeApp(config);
+
+export default firebase;
 
